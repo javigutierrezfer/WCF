@@ -76,7 +76,7 @@ functions:
           method: get
 ```
 
-Finalmente tenemos la sección de las funciones. En este caso estamos definiendo una función llamada `initialTest`, cuyo código está en `src/functions/initialTest.js` y dentro de ese fichero en una función llamada `handler`, que se activa por una llamda http GET al path `api/initialTest` y que tiene un path parameter llamado `name`. Es decir, que nuestra función se podrá llamar haciendo un get a una dirección parecida a `https://XXXXXXXX.execute-api.eu-west-1.amazonaws.com/devmanolete/api/initialTest/wecodefest`. Cuando hayamos desplegado la función y la llamemos, recibiremos como respuesta `Hello wecodefest`.
+Finalmente tenemos la sección de las funciones. En este caso estamos definiendo una función llamada `initialTest`, cuyo código está en `src/functions/getMasters.js` y dentro de ese fichero en una función llamada `handler`, que se activa por una llamda http GET al path `api/initialTest` y que tiene un path parameter llamado `name`. Es decir, que nuestra función se podrá llamar haciendo un get a una dirección parecida a `https://XXXXXXXX.execute-api.eu-west-1.amazonaws.com/devmanolete/api/initialTest/wecodefest`. Cuando hayamos desplegado la función y la llamemos, recibiremos como respuesta `Hello wecodefest`.
 
 ## Primer deploy
 Antes de ver como está escrita la función, vamos a desplegarla para comprobar que lo tenemos todo bien configurado.
